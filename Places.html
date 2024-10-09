@@ -5,70 +5,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Places</title>
     <style>
-        h1{
-            color:red;
-            background-color: black;
-            text-align: center;
-        }
+      *{
+        padding: 0;
+        margin: 0;
+      }
+      body{
+        background-color: #d8d8d8;
+    }
+      nav{
+        width:100%;
+        height:45px;
+        line-height: 25px;
+        padding: 0px;
+        position:fixed;
+        cursor: pointer;
+        background-image: linear-gradient(#6c9999,#a8a8be);
+        display:inline-block;
+    }
+    h1{
+        color: red;
+        letter-spacing: 1.5px;
+        cursor: pointer;
+        font-weight: bolder;
+        font-size: 30px;
+        padding: 10px;
+        text-transform: uppercase;
+        text-decoration:red underline;
+        display:inline-block;
+    }
+    nav ul{
+        
+        display:flex;
+        gap:20px;
+        list-style: none;
+        float:right;
+        padding-right: 10px;
+    }
+    nav li a{
+        
+        list-style:none;
+        text-decoration: underline;
+        font-size:18px;
+        padding:5px 6px;
+        transition: backgrond-color 0.3s ease;
+        display:inline-block;
+        color:white;
+    }
+    nav li a:hover{
+        color:red;
+    }
         .img4{
             display:flex;
-            justify-content: space-between;
+            justify-content: space-evenly;
             align-items: center;
             padding: 10px;
             gap:5px;
         
         }
+        .first{
+          padding-top:80px;
+        }
     </style>
 </head>
 <body>
+  <nav>
     <h1>Places</h1>
-    <section class="img4">
+    <ul class="nevlist">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Self.html">Self</a></li>
+        <li><a href="Family.html">Family</a></li>
+        <li><a href="Animals.html">Animals</a></li>
+        <li><a href="God.html">God</a></li>
+    </ul>
+</nav>
+    <section class="img4 first">
         <div calss="image">
-   
-       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvKmwqzUWaey0nXAHNQHgQxRSGQc8zUR__6w&s" alt="Tress" height=500px width="500px"><br>
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvKmwqzUWaey0nXAHNQHgQxRSGQc8zUR__6w&s" alt="Tress" height=300px width=300px><br>
       </div>
       <div calss="image">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBasKCMD4H7-Z4Y2HmOAvEjFqK4PnwZ74gsw&s" alt="" height=500px width="500px"><br>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBasKCMD4H7-Z4Y2HmOAvEjFqK4PnwZ74gsw&s" alt="" height=300px width=300px><br>
   </div>
       <div calss="image">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmzY1kTRum1uX5q_t66hk6M_LzaFyT9j9dNA&s" alt="" height=500px width="500px"><br>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmzY1kTRum1uX5q_t66hk6M_LzaFyT9j9dNA&s" alt="" height=300px width=300px><br>
       </div>
+      <div calss="image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1sBdRTNV1q89HVt1Pw-3YF-OVwopURSA-Bg&s" alt="" height=300px width=300px><br>
+        </div>
 </section>
 <section class="img4">
     <div calss="image">
 
-   <img src="https://img.freepik.com/free-photo/view-breathtaking-beach-nature-landscape_23-2151682903.jpg" alt="Tress" height=500px width="500px"><br>
+   <img src="https://img.freepik.com/free-photo/view-breathtaking-beach-nature-landscape_23-2151682903.jpg" alt="Tress" height=300px width=300px><br>
   </div>
   <div calss="image">
-  <img src="https://i.ytimg.com/vi/olboi3ttUi8/maxresdefault.jpg" alt="" height=500px width="500px"><br>
+  <img src="https://i.ytimg.com/vi/olboi3ttUi8/maxresdefault.jpg" alt="" height=300px width=300px><br>
 </div>
   <div calss="image">
-  <img src="https://www.shutterstock.com/image-photo/eiffel-tower-river-seine-summer-600nw-2333135257.jpg" alt="" height=500px width="500px"><br>
+  <img src="https://www.shutterstock.com/image-photo/eiffel-tower-river-seine-summer-600nw-2333135257.jpg" alt="" height=300px width=300px><br>
   </div>
+  <div calss="image">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzqURlyxC20i1-diVezjY0nrX9TGoeaJsH0g&s" alt="" height=300px width=300px><br>
+    </div>
 </section>
 <section class="img4">
     <div calss="image">
 
-   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQid2mE9zd64yDtc0mVCNh8r_p7Lm0Sqtq-Gw&s" alt="Tress" height=500px width="500px"><br>
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQid2mE9zd64yDtc0mVCNh8r_p7Lm0Sqtq-Gw&s" alt="Tress" height=300px width=300px><br>
   </div>
   <div calss="image">
-  <img src="https://himalayanrider.com/wp-content/uploads/2022/02/delhi-784x500-1.jpg" alt="" height=500px width="500px"><br>
+  <img src="https://himalayanrider.com/wp-content/uploads/2022/02/delhi-784x500-1.jpg" alt="" height=300px width=300px><br>
 </div>
   <div calss="image">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW4qY_FGm85TvpAiDfP8Noi2s3kczaS8JF0A&s" alt="" height=500px width="500px"><br>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW4qY_FGm85TvpAiDfP8Noi2s3kczaS8JF0A&s" alt="" height=300px width=300px><br>
   </div>
+  <div calss="image">
+    <img src="https://media2.thrillophilia.com/images/photos/000/383/704/original/1651647055_shutterstock_173584238.jpg?w=753&h=450&dpr=1.5" alt="" height=300px width=300px><br>
+    </div>
 </section>
 <section class="img4">
     <div calss="image">
 
-   <img src="https://hips.hearstapps.com/hmg-prod/images/great-ocean-road-174028267-1494616481.jpg?crop=0.888888888888889xw:1xh;center,top&resize=768:*" alt="Tress" height=500px width="500px"><br>
+   <img src="https://hips.hearstapps.com/hmg-prod/images/great-ocean-road-174028267-1494616481.jpg?crop=0.888888888888889xw:1xh;center,top&resize=768:*" alt="Tress" height=300px width=300px><br>
   </div>
   <div calss="image">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4_UlgiHsRy0ZoqJGYs28X5HecAzd7DJF2Ag&s" alt="" height=500px width="500px"><br>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4_UlgiHsRy0ZoqJGYs28X5HecAzd7DJF2Ag&s" alt="" height=300px width=300px><br>
 </div>
   <div calss="image">
-  <img src="https://hips.hearstapps.com/hbz.h-cdn.co/assets/16/16/bora-bora-gettyimages-575766591.jpg?crop=1.0xw:1xh;center,top&resize=980:*" alt="" height=500px width="500px"><br>
+  <img src="https://hips.hearstapps.com/hbz.h-cdn.co/assets/16/16/bora-bora-gettyimages-575766591.jpg?crop=1.0xw:1xh;center,top&resize=980:*" alt="" height=300px width=300px><br>
   </div>
+  <div calss="image">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeSEHTrIyUsE-5Pf97ot1MvFG7z0uQW5BW9w&s" alt="" height=300px width=300px><br>
+    </div>
 </section>
 </body>
 </html>

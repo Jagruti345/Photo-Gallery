@@ -5,11 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animals</title>
     <style>
-        h1{
-            color:red;
-            background-color: black;
-            text-align: center;
-        }
+      *{
+        padding: 0;
+        margin: 0;
+      }
+      body{
+        background-color: #d8d8d8;
+    }
+      nav{
+        width:100%;
+        height:45px;
+        line-height: 25px;
+        padding: 0px;
+        position:fixed;
+        cursor: pointer;
+        background-image: linear-gradient(#6c9999,#a8a8be);
+        display:inline-block;
+    }
+    h1{
+        color: red;
+        letter-spacing: 1.5px;
+        cursor: pointer;
+        font-weight: bolder;
+        font-size: 30px;
+        padding: 10px;
+        text-transform: uppercase;
+        text-decoration:red underline;
+        display:inline-block;
+    }
+    nav ul{
+        
+        display:flex;
+        gap:20px;
+        list-style: none;
+        float:right;
+        padding-right: 10px;
+    }
+    nav li a{
+        
+        list-style:none;
+        text-decoration: underline;
+        font-size:18px;
+        padding:5px 6px;
+        transition: backgrond-color 0.3s ease;
+        display:inline-block;
+        color:white;
+    }
+    nav li a:hover{
+        color:red;
+    }
         .img4{
             display:flex;
             justify-content: space-between;
@@ -18,57 +62,81 @@
             gap:5px;
         
         }
+        .first{
+          padding-top:80px;
+        }
     </style>
 </head>
 <body>
+  <nav>
     <h1>Animals</h1>
-    <section class="img4">
+    <ul class="nevlist">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Self.html">Self</a></li>
+        <li><a href="Family.html">Family</a></li>
+        <li><a href="Places.html">Places</a></li>
+        <li><a href="God.html">God</a></li>
+    </ul>
+</nav>
+    <section class="img4 first">
         <div calss="image">
    
-       <img src="https://animalimages.net/wp-content/gallery/chital-dear/Chital-Deer-008.jpg" alt="Tress" height=500px width="500px"><br>
+       <img src="https://animalimages.net/wp-content/gallery/chital-dear/Chital-Deer-008.jpg" alt="Tress" height=300px width=300px><br>
       </div>
       <div calss="image">
-      <img src="https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?cs=srgb&dl=pexels-pixabay-47547.jpg&fm=jpg" alt="" height=500px width="500px"><br>
+      <img src="https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?cs=srgb&dl=pexels-pixabay-47547.jpg&fm=jpg" alt="" height=300px width=300px><br>
   </div>
       <div calss="image">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj3hW6saSrT9k4Yhf3ChYcaYPK4F-dD4BPuw&s" alt="" height=500px width="500px"><br>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj3hW6saSrT9k4Yhf3ChYcaYPK4F-dD4BPuw&s" alt="" height=300px width=300px><br>
       </div>
+      <div calss="image">
+        <img src="https://i.pinimg.com/564x/5e/80/52/5e8052b1060ed51d9fefe6e1c8cce569.jpg" alt="" height=300px width=300px><br>
+        </div>
 </section>
 <section class="img4">
     <div calss="image">
 
-   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiIIQqJxwYb6lHNaCv91KevD1E2MqXoFBS4rdywXmZXLmrnfvLHN7OzykSu7YZpagZkFk&usqp=CAU" alt="Tress" height=500px width="500px"><br>
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiIIQqJxwYb6lHNaCv91KevD1E2MqXoFBS4rdywXmZXLmrnfvLHN7OzykSu7YZpagZkFk&usqp=CAU" alt="Tress" height=300px width=300px><br>
   </div>
   <div calss="image">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJMp8oLfl9MgY9N6_546znNTqUSErF0myM3g&s" alt="" height=500px width="500px"><br>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJMp8oLfl9MgY9N6_546znNTqUSErF0myM3g&s" alt="" height=300px width=300px><br>
 </div>
   <div calss="image">
-  <img src="https://ids.si.edu/ids/deliveryService?max_w=550&id=NZP-20180628-596SB" alt="" height=500px width="500px"><br>
+  <img src="https://ids.si.edu/ids/deliveryService?max_w=550&id=NZP-20180628-596SB" alt="" height=300px width=300px><br>
   </div>
+  <div calss="image">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW_Cmb2UTZ0ICf1-9RvDKyF7Dcr3kpsSkDHONMaTjwRHZr1u5X_Qf6bXDYfgznPJI6LLM&usqp=CAU" alt="" height=300px width=300px><br>
+    </div>
 </section>
 <section class="img4">
     <div calss="image">
 
-   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX1X4xXObmyQsf3JaMKNLKM6pAxdhcqj2H9Q&s" alt="Tress" height=500px width="500px"><br>
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX1X4xXObmyQsf3JaMKNLKM6pAxdhcqj2H9Q&s" alt="Tress" height=300px width=300px><br>
   </div>
   <div calss="image">
-  <img src="https://static.vecteezy.com/system/resources/thumbnails/026/978/530/small/lion-in-nature-national-geography-wide-life-animals-ai-generated-photo.jpg" alt="" height=500px width="500px"><br>
+  <img src="https://static.vecteezy.com/system/resources/thumbnails/026/978/530/small/lion-in-nature-national-geography-wide-life-animals-ai-generated-photo.jpg" alt="" height=300px width=300px><br>
 </div>
   <div calss="image">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYtZBBaKKkiWWo28TkoF9b3bmpChA-JGTF4smdbY1ouz7D27RXkYTk59HU56XzStWUooY&usqp=CAU" alt="" height=500px width="500px"><br>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYtZBBaKKkiWWo28TkoF9b3bmpChA-JGTF4smdbY1ouz7D27RXkYTk59HU56XzStWUooY&usqp=CAU" alt="" height=300px width=300px><br>
   </div>
+  <div calss="image">
+    <img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA3L3JvYl9yYXdwaXhlbF9zdHVkaW9fcGhvdG9fb2ZfYV9vcmFuZ3V0YW5fZnVsbF9ib2R5X2lzb2xhdGVkX29uX182Nzc4MjQxOS1lYTFjLTQ1ODItYmExMy0xMzYzZDY0MDU2MzYtNXgtaHEtc2NhbGUtNV8wMHgtam9iMTg5NC0wMS5qcGc.jpg" alt="" height=300px width=300px><br>
+    </div>
 </section>
 <section class="img4">
     <div calss="image">
 
-   <img src="https://i.insider.com/626ae01186fa90001905ae6c?width=700" alt="Tress" height=500px width="500px"><br>
+   <img src="https://i.insider.com/626ae01186fa90001905ae6c?width=700" alt="Tress" height=300px width=300px><br>
   </div>
   <div calss="image">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTJ0rMC73IFrEzldWbmD0NoIGzwoYEM6xk1dagR2W3O_PBDxWZiCDCgicgPY7QC3DRk-4&usqp=CAU" alt="" height=500px width="500px"><br>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTJ0rMC73IFrEzldWbmD0NoIGzwoYEM6xk1dagR2W3O_PBDxWZiCDCgicgPY7QC3DRk-4&usqp=CAU" alt="" height=300px width=300px><br>
 </div>
   <div calss="image">
-  <img src="https://images.pexels.com/photos/34098/south-africa-hluhluwe-giraffes-pattern.jpg?cs=srgb&dl=pexels-pixabay-34098.jpg&fm=jpg" alt="" height=500px width="500px"><br>
+  <img src="https://images.pexels.com/photos/34098/south-africa-hluhluwe-giraffes-pattern.jpg?cs=srgb&dl=pexels-pixabay-34098.jpg&fm=jpg" alt="" height=300px width=300px><br>
   </div>
+  <div calss="image">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGEAmf8PI_TDjipdmzK53EjYDuieluTezd0g&s" alt="" height=300px width=300px><br>
+    </div>
 </section>
 </body>
 </html>
